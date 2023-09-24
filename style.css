@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff5733;
+    /* Change the color on hover */
+}
+
+/* navbar end */
+
+
+/* .button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333 ; 
+    color: #ffffff; 
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  
+  .button:hover {
+    background-color: #1d7f09;
+  }
+  
+  
+  .button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(220, 197, 147, 0.7);
+  }
+  
+  .button:active {
+    background-color: #a81c44; 
+  }
+  .container{
+    margin: auto;
+    padding: auto;
+  }
+  .smenu{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dropdown-list{
+    font-family: 'Nunito', sans-serif; 
+  } */
+
+  /* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Style the buttons */
+.button {
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+/* Style the submenu */
+.smenu ul {
+    list-style: none;
+}
+
+.smenu li {
+    margin-bottom: 10px;
+}
+
+/* Style the dropdown list */
+.dropdown-list {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-list label {
+    margin-right: 10px;
+}
+
+.svg {
+    color: #ebebeb;
+    transition: color 25ms ease-in-out;
+    background-color: #3498db;
+}
+
+.svg:hover {
+    background-color: #ff5733;
+    color: #ff5733;
+    cursor: pointer;
+}
+
+.clickable-region {
+    position: absolute;
+    background-color: transparent;
+  }
