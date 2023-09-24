@@ -165,3 +165,10 @@ header {
     position: absolute;
     background-color: transparent;
   }
+
+  .logo {
+    /* position: absolute; */
+    max-width: 30px;
+    max-height: 30px;
+  }
+
