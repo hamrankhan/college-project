@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diet Selection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+        }
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+        select {
+            width: 100%;
+            padding: 10px;
+        }
+        button {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Diet Selection</h1>
+        <form id="diet-form">
+            <div class="form-group">
+                <label>Choose Your Sex:</label>
+                <input type="radio" name="sex" value="male" id="male"> <label for="male">Male</label>
+                <input type="radio" name="sex" value="female" id="female"> <label for="female">Female</label>
+            </div>
+            <div class="form-group">
+                <label>Choose Your Aim:</label>
+                <select name="aim">
+                    <option value="lean">Lean Body</option>
+                    <option value="muscular">Muscular Body</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Diet Type:</label>
+                <input type="checkbox" name="diet" value="vegetarian" id="vegetarian"> <label for="vegetarian">Vegetarian</label>
+                <input type="checkbox" name="diet" value="non-vegetarian" id="non-vegetarian"> <label for="non-vegetarian">Non-Vegetarian</label>
+                <input type="checkbox" name="diet" value="keto" id="keto"> <label for="keto">Keto</label>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html
