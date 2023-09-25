@@ -79,50 +79,85 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    margin-top: 30px;
 }
 
 /* Style the buttons */
-.button {
-    background-color: #3498db;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
+.btn{
+    margin-left: 400px;
+}
+.button{
+    background-color: transparent;
+    color:#2980b9;
+    border: 1px solid #2980b9;
+    border-radius: 999px;
     cursor: pointer;
     padding: 10px 20px;
     margin-right: 10px;
     font-size: 16px;
+    font-weight: 700;
 }
 
 .button:hover {
     background-color: #2980b9;
+    color:#fff;
+}
+.first-btn{
+    border-radius: 10px 0 0 10px ;
+}
+.last-btn{
+    border-radius: 0 10px 10px 0;
+}
+.main-menu{
+ margin-right: 450px;   
+}
+
+.main-menu button{
+    background-color: transparent;
+    color:#2980b9;
+    border: 2px solid #2980b9;
+    /* border-radius: 0 10px 0 10px; */
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-right: -6px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Nunito', sans-serif;
+    text-transform: capitalize;
+    transition: 0.5s ease-in;
+
+}
+.main-menu  :hover{
+    background-color: #2980b9;
+    color: #f5f8fa;
 }
 
 /* Style the submenu */
-.smenu ul {
+/* .smenu ul {
     list-style: none;
 }
 
 .smenu li {
     margin-bottom: 10px;
-}
+} */
 
 /* Style the dropdown list */
-.dropdown-list {
+/* .dropdown-list {
     display: flex;
     align-items: center;
-}
+} */
 
-.dropdown-list label {
+/* .dropdown-list label {
     margin-right: 10px;
-}
+} */
 
-.svg {
+/* .svg {
     color: #ebebeb;
     transition: color 25ms ease-in-out;
     background-color: #3498db;
-}
+} */
 
-.svg:hover {
+/* .svg:hover {
     background-color: #ff5733;
     color: #ff5733;
     cursor: pointer;
@@ -131,7 +166,7 @@ body {
 .clickable-region {
     position: absolute;
     background-color: transparent;
-  }
+  } */
 
   .logo {
     /* position: absolute; */
@@ -149,4 +184,25 @@ body {
 .tb-flex {
     display: flex;
 }
+/* body map */
+.diagram{
+    display: flex;
+    justify-content: space-evenly;
+    height: 800px;
+    margin:50px 400px 0 400px;
+    max-width: 50%;
+    /* margin-left: 50%; */
+    
 
+}
+.body-map__muscle{
+    color: #ebebeb;
+    transition: color 25ms ease-in-out;
+}
+.body-map__muscle :hover{
+    color: #fe5b7f;
+}
+.back-part{
+    max-width: 400px;
+    margin-right: 30%;
+}
