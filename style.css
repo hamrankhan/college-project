@@ -10,9 +10,13 @@ body {
 }
 
 header {
-    background-color: #333;
+    /* background-color: #333; */
     color: #fff;
-    padding: 10px 0;
+    /* padding: 10px 0; */
+}
+
+.section{
+    background-color: #333;
 }
 
 .navbar {
@@ -20,13 +24,8 @@ header {
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.logo {
-    font-size: 24px;
-    font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
 
 .nav-links {
@@ -53,60 +52,10 @@ header {
 
 .nav-links a:hover {
     color: #ff5733;
-    /* Change the color on hover */
 }
 
 /* navbar end */
 
-
-/* .button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #333 ; 
-    color: #ffffff; 
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-  }
-  
-  
-  .button:hover {
-    background-color: #1d7f09;
-  }
-  
-  
-  .button:focus {
-    outline: none;
-    box-shadow: 0 0 5px rgba(220, 197, 147, 0.7);
-  }
-  
-  .button:active {
-    background-color: #a81c44; 
-  }
-  .container{
-    margin: auto;
-    padding: auto;
-  }
-  .smenu{
-    display: flex;
-    flex-direction: column;
-  }
-
-  .dropdown-list{
-    font-family: 'Nunito', sans-serif; 
-  } */
-
-  /* Reset default margin and padding */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Style the container */
 .container {
     display: flex;
     justify-content: space-between;
@@ -168,7 +117,9 @@ header {
 
   .logo {
     /* position: absolute; */
-    max-width: 30px;
-    max-height: 30px;
+    width: 150px;
+    height: 75px;
+    padding: 0;
+    margin: 0 60px;
   }
 
