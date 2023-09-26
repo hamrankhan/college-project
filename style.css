@@ -84,7 +84,7 @@ body {
 
 /* Style the buttons */
 .btn{
-    margin-left: 400px;
+    margin-left: 200px;
 }
 .button{
     background-color: transparent;
@@ -109,7 +109,7 @@ body {
     border-radius: 0 10px 10px 0;
 }
 .main-menu{
- margin-right: 450px;   
+ margin-right: 200px;   
 }
 
 .main-menu button{
@@ -185,16 +185,36 @@ body {
     display: flex;
 }
 /* body map */
-.diagram{
+.body-map{
     display: flex;
-    justify-content: space-evenly;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+    /* flex-direction: row; */
     height: 800px;
-    margin:50px 400px 0 400px;
-    max-width: 50%;
+     max-width: 50%;
+}
+.front-body-map{
+    /* display: flex;
+    justify-content: space-evenly; */
+    /* height: 700px; */
+    margin:30px 25px 0 250px;
+    /* max-width: 50%; */
     /* margin-left: 50%; */
     
 
 }
+
+.back-body-map{
+    /* display: flex;
+    justify-content: space-evenly; */
+    /* height: 700px; */
+    margin:30px 250px 0 25px;
+    /* max-width: 50%; */
+    /* margin-left: 50%; */
+    
+
+}
+
 .body-map__muscle{
     color: #ebebeb;
     transition: color 25ms ease-in-out;
@@ -202,7 +222,37 @@ body {
 .body-map__muscle :hover{
     color: #fe5b7f;
 }
-.back-part{
+/* .back-part{
     max-width: 400px;
     margin-right: 30%;
+} */
+
+.advanced-body-map{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    /* flex-direction: row; */
+    height: 500px;
+     max-width: 50%;
+}
+.advanced-front-body-map{
+    /* display: flex;
+    justify-content: space-evenly; */
+    /* height: 700px; */
+    margin:30px 250px 0 250px;
+    /* max-width: 50%; */
+    /* margin-left: 50%; */
+    
+
+}
+
+.advanced-back-body-map{
+    /* display: flex;
+    justify-content: space-evenly; */
+    /* height: 700px; */
+    margin:30px 250px 0 250px;
+    /* max-width: 50%; */
+    /* margin-left: 50%; */
+    
+
 }
