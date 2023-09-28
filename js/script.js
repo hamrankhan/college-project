@@ -12,4 +12,5 @@ beginnerbtn.addEventListener("click", () => {
 advancebtn.addEventListener("click", () => {
     beginnerBodyMap.style.display = "none";
     advanceBodyMap.style.display = "block";
+    
 })
